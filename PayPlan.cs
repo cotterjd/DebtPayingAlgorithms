@@ -9,14 +9,19 @@ namespace DebtPayOff
 		private int months;
 		private double interestPaid;
 		private double payment;
-		
-		public PayPlan (Loan[] loans)
-		{
-			this.loans = loans;
-			payment = 2059;
-			months = 0;
-			interestPaid = 0.0;
-		}
+
+        public PayPlan(Loan[] loans, double extraMoneyForDebt)
+        {
+            Loan[] tempLoans = new Loan[loans.Length];
+            for (int i = 0; i < loans.Length; i++)
+            {
+                tempLoans[i] = new Loan(loans[i].principle, loans[i].interestRate * 100, loans[i].minPayment);
+            }
+            this.loans = tempLoans;
+            payment = extraMoneyForDebt;
+            months = 0;
+            interestPaid = 0.0;
+        }
 		
 		public double payLoans(Loan[] loans)
 		{

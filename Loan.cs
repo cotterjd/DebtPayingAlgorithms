@@ -8,13 +8,6 @@ namespace DebtPayOff
 		public double interestRate; 
 		public double minPayment;
 		
-		public Loan(double princ, double rate)
-		{
-			principle = princ;
-			interestRate = rate/100;
-			minPayment = 50;
-		}	
-		
 		public Loan(double princ, double rate, double minPay)
 		{
 			principle = princ;
