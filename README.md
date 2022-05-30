@@ -10,5 +10,7 @@ Be sure to name your project DebtPayOff or you'll have to rename the namespace o
 after you build run the program with ctrl F5
 
 ## Running with Mono (assuming you have <a href="https://jordancotter.wordpress.com/2022/03/01/getting-started-with-mono-net-on-linux/">mono installed</a>)
-`$ csc main.cs Loan.cs PayPlan.cs`<br>
-`$ mono main.exe`<br>
+`$ git clone git@github.com:cotterjd/DebtPayingAlgorithms.git`<br>
+`$ cd DebtPayingAlgorithms`<br>
+`$ csc Main.cs Loan.cs PayPlan.cs`<br>
+`$ mono Main.exe`<br>
