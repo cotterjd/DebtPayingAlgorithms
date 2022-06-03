@@ -76,8 +76,8 @@ namespace DebtPayOff
     public void Info()
     { 
       payLoans (this.loans);
-      Console.WriteLine (months/12 + " years and " + months%12 + " months" ); 
-      Console.WriteLine ("$" + Math.Round(interestPaid, 2));
+      Console.WriteLine ("Total Time: " + months/12 + " years and " + months%12 + " months" ); 
+      Console.WriteLine ("Total Interest Paid: $" + Math.Round(interestPaid, 2));
     }
   }
 }

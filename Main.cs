@@ -31,7 +31,7 @@ namespace DebtPayOff
           }
       }
 
-      Console.WriteLine("How much money do you have each month to put toward debt?");
+      Console.WriteLine("How much extra money do you have each month to put toward debt?");
       double extraMoney = double.Parse(Console.ReadLine());
 
       var totalDebt = 0.0;

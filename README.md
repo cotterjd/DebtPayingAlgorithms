@@ -13,3 +13,6 @@ after you build run the program with ctrl F5
 `$ git clone git@github.com:cotterjd/DebtPayingAlgorithms.git`<br>
 `$ cd DebtPayingAlgorithms`<br>
 `$ mono Main.exe`<br>
+
+### Compiling 
+`$ csc Main.cs Loan.cs PayPlan.cs`<br>
