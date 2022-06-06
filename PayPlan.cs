@@ -42,7 +42,7 @@ namespace DebtPayOff
       while(loans[0].principle > this.payment)
       {
         months ++;
-        interestPaid += pay(loans[0], this.payment);
+        interestPaid += pay(loans[0], loans[0].minPayment + this.payment);
         for(var i=1; i<loans.Length; i++)
         {
           interestPaid += pay (loans[i], loans[i].minPayment);  
