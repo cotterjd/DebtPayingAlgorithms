@@ -16,7 +16,7 @@ namespace DebtPayOff
           Console.Write("Enter loan amount: ");
           var amount = double.Parse(Console.ReadLine());
 
-          Console.Write("Enter interest rate: ");
+          Console.Write("Enter interest rate (as percentage not decimal. ex: '3.5' for 3.5%): ");
           var rate = double.Parse(Console.ReadLine());
 
           Console.Write("Enter minimum payment: ");
