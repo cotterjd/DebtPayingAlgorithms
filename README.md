@@ -12,6 +12,7 @@ after you build run the program with ctrl F5
 ## Running with Mono (assuming you have <a href="https://jordancotter.wordpress.com/2022/03/01/getting-started-with-mono-net-on-linux/">mono installed</a>)
 `$ git clone git@github.com:cotterjd/DebtPayingAlgorithms.git`<br>
 `$ cd DebtPayingAlgorithms`<br>
+`$ sudo apt install -y mono-runtime`<br>
 `$ mono Main.exe`<br>
 
 ### Compiling 
